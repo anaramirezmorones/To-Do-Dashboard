@@ -255,3 +255,72 @@
         width: 24px;
         height: 24px;
     }
+
+    /*Media Query for mobile devices*/
+    @media (max-width: 576px) {
+        body{
+            padding: 20px 15px;
+            align-items: flex-start;
+        }
+
+        .container-todo, .container{
+            width: 100%;
+            max-width: 100%;
+            margin: 20px auto o auto;
+        }
+
+        .stats-container{
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .details{
+            margin-bottom: 10px;
+        }
+
+        #numbers{
+            width: 120px;
+            height: 120px;
+            font-size: 1.5rem;       
+        }
+
+        form{
+            margin-top: 30px;
+            gap: 8px;
+        }
+
+        input{
+            padding: 12px;
+            font-size: 0.95rem;
+        }
+
+        button{
+            width: 45px;
+            height: 45px;
+        }
+
+        #task-list{
+            margin-top: 20px;
+        }
+
+        .taskItem{
+            padding: 12px;
+        }
+
+        .link-card{
+            padding: 14px 18px;
+        }
+
+        .arrow-icon {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        
+        
+
+        
+    }
