@@ -26,8 +26,14 @@ Since this is a lightweight application, client-side application, you only need 
 ## Installation
 
 1. Clone the repository:
+```
+git clone https://github.com/anaramirezmorones/To-Do-Dashboard.git
+```
 
 2. Navigate into the project directory
+```
+cd To-Do-Dashboard
+```
 
 3. Open `index.html` directly into your browser, or serve it using a local development server like Live Server in VS Code.
 
