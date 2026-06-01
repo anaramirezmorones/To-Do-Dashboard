@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container-todo">
+    <div class="stats-container">
+        <div class="details">
+            <h1>To-Do List</h1>
+            <p>Keep it Up!</p>
+            <div id="progressBar">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <div class="stats-numbers"></div>
+        <p id="numbers">0 / 0</p>
+    </div>
+
+    <form action="">
+        <input type="text" id="taskInput" placeholder="Write your task">
+        <button type="submit" id="newTask">+</button>
+    </form>
+
+    <ul id="task-list"></ul>
+    
+   </div>
+
+   <div class="container">
+        <header class="profile">
+            <img src="./img/sun.svg" 
+            alt="Sun"
+            class="profile-img">
+
+            <h1>Hi Ana! <img src="./img/verified.svg" 
+                alt="verified"
+                class="vicon"></h1>
+                <p>The best is yet to come!</p>
+        </header>
+
+        <main class=""links-wrapper">
+            <a href="https://fastly.okta.com/" target="_blank" class="link-card">
+                <div class="link-content">
+                    <span class="link-icon">🚀</span>
+                    <span>Dashboard</span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a>
+
+            <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" class="link-card">
+                <div class="link-content">
+                    <span class="link-icon">📅</span>
+                    <span>Check Calendar</span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a>
+
+           <a href="https://mail.google.com/" target="_blank" class="link-card">
+                <div class="link-content">
+                    <span class="link-icon">✉️</span>
+                    <span>Email</span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a> 
+
+            <a href="https://academy.fastly.com/" target="_blank" class="link-card">
+                <div class="link-content">
+                    <span class="link-icon">📚</span>
+                    <span>Academy</span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a> 
+
+            <a href="https://manage.fastly.com/" target="_blank" class="link-card">
+                <div class="link-content">
+                    <span class="link-icon">🌐</span>
+                    <span>Fastly Ana</span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a> 
+
+            <a href="https://fastly.highspot.com/signin/sso/start" target="_blank" class="link-card">
+                <div class="link-content">
+                    <span class="link-icon">📓</span>
+                    <span>Highspot</span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a> 
+
+        </main>
+    </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
